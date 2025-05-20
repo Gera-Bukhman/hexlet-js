@@ -1,3 +1,3 @@
-import _ from 'lodash'
+import _ from "lodash";
 
-_.intersection([2, 1], [2, 3]) // => [2]
+_.intersection([2, 1], [2, 3]); // => [2]
