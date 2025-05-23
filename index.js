@@ -1,3 +1,6 @@
-import _ from "lodash";
+import getBirthYear from "./src/index.js";
 
-_.intersection([2, 1], [2, 3]); // => [2]
+console.log("Сколько вам лет?");
+const age = 18; // Здесь позже добавим ввод от пользователя
+const birthYear = getBirthYear(age);
+console.log(`Ваш год рождения: ${birthYear}`);
